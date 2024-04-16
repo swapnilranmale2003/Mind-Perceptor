@@ -1,0 +1,24 @@
+.faq{
+    height: 2rem;
+    width: 1000px;
+    background-color: #212121;
+    color: aliceblue;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.question{
+    margin-top:15px;
+}
+
+.answer{
+    background-color: #a5a5a5;
+    width: 1000px;
+    height: 5rem;
+    border-radius: 10px;
+}
+.answerp{
+    margin-left: 10px;
+}

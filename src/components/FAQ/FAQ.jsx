@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaQuestion } from "react-icons/fa";
+import './FAQ.css'
 
 function FAQ() {
   const [expanded, setExpanded] = useState({});
@@ -29,13 +30,13 @@ function FAQ() {
           alt=""
         />
       </div>
-      <div>
+      <div className="faqmain">
         <div className="faq" onClick={() => toggleQuestion(0)}>
-          <p>Which tools and technologies do you use</p>
+          <p className="question">Which tools and technologies do you use</p>
         </div>
         {expanded[0] && (
           <div className="answer">
-            <p>Answer goes here...</p>
+            <p className="answerp">Answer goes here...</p>
           </div>
         )}
         <div className="faq" onClick={() => toggleQuestion(1)}>
