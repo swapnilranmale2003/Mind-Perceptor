@@ -69,3 +69,8 @@
     width: 90%;
   }
 }
+
+.homemp:hover{
+  scale: 1.05;
+  transition: all ease-in-out 0.5s;
+}
