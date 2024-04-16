@@ -40,7 +40,7 @@ function FAQ() {
           </div>
         )}
         <div className="faq" onClick={() => toggleQuestion(1)}>
-          <p>Will I be getting any support after completion of project?</p>
+          <p className="question">Will I be getting any support after completion of project?</p>
         </div>
         {expanded[1] && (
           <div className="answer">
@@ -48,7 +48,7 @@ function FAQ() {
           </div>
         )}
         <div className="faq" onClick={() => toggleQuestion(2)}>
-          <p>What is the difference between native app and a web app?</p>
+          <p className="question">What is the difference between native app and a web app?</p>
         </div>
         {expanded[2] && (
           <div className="answer">

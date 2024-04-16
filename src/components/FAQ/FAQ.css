@@ -1,23 +1,25 @@
 .faq{
-    height: 2rem;
+    height: 3rem;
     width: 1000px;
-    background-color: #212121;
+    background-color: #1976d2;
     color: aliceblue;
     margin: 2px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .question{
     margin-top:15px;
 }
 
 .answer{
-    background-color: #a5a5a5;
+    background-color: #7da8d4;
     width: 1000px;
     height: 5rem;
-    border-radius: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
 }
 .answerp{
     margin-left: 10px;
