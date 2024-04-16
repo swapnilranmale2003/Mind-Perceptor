@@ -1,26 +1,53 @@
-.faq{
-    height: 3rem;
-    width: 1000px;
-    background-color: #1976d2;
-    color: aliceblue;
-    margin: 2px;
+/* FAQ.css */
+.faq-section {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    border-radius: 5px;
-}
-.question{
-    margin-top:15px;
+    align-items: center;
+    height: auto;
+    /* padding: 20px; */
 }
 
-.answer{
-    background-color: #7da8d4;
-    width: 1000px;
-    height: 5rem;
-    border-radius: 4px;
+.faq-header {
+    margin-bottom: 20px;
+}
+
+.faq-header-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.faqmain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    /* Ensure the FAQ main container takes full width */
+}
+
+.faq {
+    width: 70%;
+    /* Make the FAQ items take full width */
+    background-color: #1976d2;
+    color: aliceblue;
+    padding: 10px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    cursor: pointer;
 }
-.answerp{
-    margin-left: 10px;
+
+.question {
+    margin: 0;
+
+}
+
+.answer {
+    background-color: #7da8d4;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
 }
