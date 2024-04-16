@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaQuestion } from "react-icons/fa";
-import "./FAQ.css";
 
 function FAQ() {
   const [expanded, setExpanded] = useState({});
@@ -9,9 +8,9 @@ function FAQ() {
     setExpanded((prevState) => {
       const nextState = { ...prevState };
       Object.keys(nextState).forEach((key) => {
-        nextState[key] = false; // Close all other dropdowns
+        nextState[key] = false;
       });
-      nextState[index] = !prevState[index]; // Toggle the clicked dropdown
+      nextState[index] = !prevState[index];
       return nextState;
     });
   };
@@ -33,7 +32,6 @@ function FAQ() {
       <div>
         <div className="faq" onClick={() => toggleQuestion(0)}>
           <p>Which tools and technologies do you use</p>
-         
         </div>
         {expanded[0] && (
           <div className="answer">
@@ -42,7 +40,6 @@ function FAQ() {
         )}
         <div className="faq" onClick={() => toggleQuestion(1)}>
           <p>Will I be getting any support after completion of project?</p>
-         
         </div>
         {expanded[1] && (
           <div className="answer">
@@ -51,7 +48,6 @@ function FAQ() {
         )}
         <div className="faq" onClick={() => toggleQuestion(2)}>
           <p>What is the difference between native app and a web app?</p>
-         
         </div>
         {expanded[2] && (
           <div className="answer">
