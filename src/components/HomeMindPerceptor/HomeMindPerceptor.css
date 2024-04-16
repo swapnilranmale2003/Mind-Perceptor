@@ -69,3 +69,12 @@
     width: 90%;
   }
 }
+.homemp{
+  box-shadow:14px 13px 18px -11px rgba(99,99,99,1); 
+}
+
+.homemp:hover{
+  scale: 1.05;
+  transition: all ease-in-out 0.5s;
+  box-shadow: 14px 13px 62px -11px rgba(99,99,99,1);
+}

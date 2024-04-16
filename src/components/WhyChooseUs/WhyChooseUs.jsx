@@ -7,7 +7,7 @@ function WhyChooseUs() {
       <div className="whychooseus">Why Choose Us</div>
       <div className="choose container-fluid">
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-4 choosebox">
             <div className="choose-1">
               <div className="choose-title">Quality product</div>
               <div className="choose-description">
@@ -18,7 +18,7 @@ function WhyChooseUs() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 choosebox">
             <div className="choose-1">
               <div className="choose-title">Strong expertise</div>
               <div className="choose-description">
@@ -29,7 +29,7 @@ function WhyChooseUs() {
               </div>
             </div>
           </div>
-          <div className="col-md-4">
+          <div className="col-md-4 choosebox">
             <div className="choose-1">
               <div className="choose-title">Complete transparency</div>
               <div className="choose-description">

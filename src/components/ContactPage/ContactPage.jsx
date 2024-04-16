@@ -36,7 +36,7 @@ function ContactPage() {
             <img
               src="https://images.unsplash.com/photo-1543269664-56d93c1b41a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzZ8fGhhcHB5JTIwcGVvcGxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
               alt="Contact Image"
-              className="img-fluid"
+              className="img-fluid conteactImg"
             />
           </div>
         </div>

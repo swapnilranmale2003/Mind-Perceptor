@@ -26,3 +26,6 @@
     text-align: justify;
     padding: 0 10px;
 }
+.choosebox{
+    box-shadow: 14px 13px 62px -11px rgba(99,99,99,1);
+}

@@ -26,7 +26,7 @@ function HomeMindPerceptor() {
             </Button>
           </div>
           <div className="col-md-7">
-            <img src="assets/homeMP.jpg" alt="" />
+            <img className="homemp" src="assets/homeMP.jpg" alt="" />
           </div>
         </div>
       </div>
