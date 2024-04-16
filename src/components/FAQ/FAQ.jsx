@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { FaQuestion } from "react-icons/fa";
 
 function FAQ() {
   const [expanded, setExpanded] = useState({});
@@ -16,7 +15,7 @@ function FAQ() {
   };
 
   return (
-    <>
+    <div id="faq-section">
       <div
         style={{
           display: "flex",
@@ -55,7 +54,7 @@ function FAQ() {
           </div>
         )}
       </div>
-    </>
+    </div>
   );
 }
 

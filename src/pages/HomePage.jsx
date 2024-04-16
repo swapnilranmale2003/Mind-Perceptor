@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/Navbar/Navbar";
 import Service from "../components/Services/Service";
 import WhoMP from "../components/WhoMP/WhoMP";
 import FAQ from "../components/FAQ/FAQ";
 import HomeMindPerceptor from "../components/HomeMindPerceptor/HomeMindPerceptor";
 import WhyChooseUs from "../components/WhyChooseUs/WhyChooseUs";
+import ContactPage from "../components/ContactPage/ContactPage";
 
 function HomePage() {
   return (
@@ -13,6 +13,7 @@ function HomePage() {
       <Service />
       <WhoMP />
       <WhyChooseUs />
+      <ContactPage />
       <FAQ />
     </div>
   );
