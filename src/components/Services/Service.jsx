@@ -3,7 +3,7 @@ import "./Service.css";
 
 function Service() {
   return (
-    <>
+    <div id="service-section">
         <div className="wetakecare">We take care of you, so you can take care of your clients.</div>
       <div className="whatwecando">What we can do for you?</div>
       <div className="services container-fluid">
@@ -66,7 +66,7 @@ function Service() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
