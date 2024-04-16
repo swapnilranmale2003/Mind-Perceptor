@@ -1,20 +1,25 @@
+/* Your existing CSS */
+
 .contact-title {
     font-size: 3rem;
     text-align: center;
 }
-.contact-left{
+
+.contact-left {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
 }
-.contact-left>input {
+
+.contact-left > input {
     height: 60px;
 }
 
 .contact-btn {
     width: 20%;
-    height:50px;
+    height: 50px;
 }
+
 .contact-img {
     display: flex;
     justify-content: center;
@@ -23,8 +28,17 @@
 img {
     border-radius: 10px;
 }
-img:hover{
+
+img:hover {
     scale: 0.97;
     transition: all ease-out 0.5s;
     cursor: pointer;
+}
+
+/* Media Query for img elements */
+@media (max-width: 768px) {
+    img {
+        width: 80%;
+        margin-top: 2rem; /* Adjust the width of img elements for smaller screens */
+    }
 }

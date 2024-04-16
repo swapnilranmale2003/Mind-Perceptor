@@ -33,7 +33,7 @@ function scrollToWhoMPSection() {
 function Navbar() {
   return (
     <div className="nav">
-      <div className="logo">Logo</div>
+      <div className="logo">Mind Perceptor</div>
       <div className="nav-links">
         <Link to="/">Home</Link>
 

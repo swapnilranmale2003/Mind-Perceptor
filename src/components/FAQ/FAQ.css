@@ -1,11 +1,9 @@
-/* FAQ.css */
 .faq-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: auto;
-    /* padding: 20px; */
 }
 
 .faq-header {
@@ -21,14 +19,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     width: 100%;
-    /* Ensure the FAQ main container takes full width */
 }
 
 .faq {
     width: 70%;
-    /* Make the FAQ items take full width */
     background-color: #1976d2;
     color: aliceblue;
     padding: 10px;
@@ -37,17 +32,25 @@
     justify-content: space-between;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 10px; /* Add margin bottom to create a gap */
 }
 
 .question {
-    margin: 0;
-
+    margin: 0 2rem;
+    font-size: 1.2rem;
 }
 
 .answer {
-    background-color: #7da8d4;
+    background-color: #1976d2;
     color: #fff;
     padding: 10px;
     border-radius: 5px;
     width: 70%;
+    margin-bottom: 10px;
+
 }
+.faq.expanded {
+    color: black;
+    background-color: #6d9ecfc9;
+  }
+  

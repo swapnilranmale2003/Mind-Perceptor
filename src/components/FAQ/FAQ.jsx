@@ -26,31 +26,37 @@ function FAQ() {
         />
       </div>
       <div className="faqmain">
-        <div className="faq" onClick={() => toggleQuestion(0)}>
+        <div
+          className={`faq ${expanded[0] ? "expanded" : ""}`}
+          onClick={() => toggleQuestion(0)}
+        >
           <p className="question">Which tools and technologies do you use?</p>
-          
         </div>
         {expanded[0] && (
           <div className="answer">
             <p className="answerp">Answer goes here...</p>
           </div>
         )}
-        <div className="faq" onClick={() => toggleQuestion(1)}>
+        <div
+          className={`faq ${expanded[1] ? "expanded" : ""}`}
+          onClick={() => toggleQuestion(1)}
+        >
           <p className="question">
             Will I be getting any support after completion of the project?
           </p>
-        
         </div>
         {expanded[1] && (
           <div className="answer">
             <p>Answer goes here...</p>
           </div>
         )}
-        <div className="faq" onClick={() => toggleQuestion(2)}>
+        <div
+          className={`faq ${expanded[2] ? "expanded" : ""}`}
+          onClick={() => toggleQuestion(2)}
+        >
           <p className="question">
             What is the difference between a native app and a web app?
           </p>
-     
         </div>
         {expanded[2] && (
           <div className="answer">
