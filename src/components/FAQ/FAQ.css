@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     height: auto;
+    margin-bottom: 5rem;
 }
 
 .faq-header {
@@ -53,4 +54,19 @@
     color: black;
     background-color: #6d9ecfc9;
   }
-  
+  .faq-header {
+    margin-bottom: 20px;
+    text-align: center; /* Align center for all screen sizes */
+}
+
+.faq-header-image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block; /* Ensure the image is centered */
+}
+
+@media (max-width: 576px) {
+    .faq-header {
+        text-align: center; /* Align center specifically for mobile view */
+    }
+}
