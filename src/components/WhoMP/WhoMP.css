@@ -1,0 +1,14 @@
+  
+   .whoaremp {
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 20px;
+  }
+  .whoaremp-description{
+    width: 80%;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
