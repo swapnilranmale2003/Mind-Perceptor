@@ -70,11 +70,11 @@
   }
 }
 .homemp{
-  box-shadow:14px 13px 18px -11px rgba(99,99,99,1); 
+  box-shadow:  10px 20px 41px -11px rgba(0,0,0,0.75); 
 }
 
 .homemp:hover{
-  scale: 1.05;
+  scale: 1.005;
   transition: all ease-in-out 0.5s;
   box-shadow: 14px 13px 62px -11px rgba(99,99,99,1);
 }
