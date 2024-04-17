@@ -13,10 +13,12 @@
     align-items: center;
     margin: 1rem 0;
     height: auto;
+
 }
 .choose-title{
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 500;
+    color: #2878c8;
 }
 .choose-description {
     margin-top: 1rem;

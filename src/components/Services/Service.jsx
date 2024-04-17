@@ -4,7 +4,9 @@ import "./Service.css";
 function Service() {
   return (
     <div id="service-section">
-        <div className="wetakecare">We take care of you, so you can take care of your clients.</div>
+      <div className="wetakecare">
+        We take care of you, so you can take care of your clients.
+      </div>
       <div className="whatwecando">What we can do for you?</div>
       <div className="services container-fluid">
         <div className="row">
@@ -13,7 +15,7 @@ function Service() {
               <div className="service-logo">
                 <img src="assets/app-dev.png" alt="" />
               </div>
-              <div className="service-title">Application development</div>
+              <div className="service-title">App development</div>
               <div className="service-description">
                 Reach your potential audience online with a custom mobile
                 application. From the initial design to the final development

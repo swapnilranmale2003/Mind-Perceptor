@@ -1,5 +1,4 @@
 
-
 .wetakecare {
     text-align: center;
     font-size: 2rem;
@@ -34,7 +33,9 @@
 .service-title {
     font-size: 2rem;
     font-weight: bold;
+    text-align: center; /* Add this line */
 }
+
 
 .service-description {
     width: 100%;

@@ -12,7 +12,7 @@ function HomeMindPerceptor() {
             <h1 className="h1-align">
               Your IT partner to {"  "}
               <span>
-                 <FaHandshakeAngle color="#007bff" size={"4rem"} />
+                 <FaHandshakeAngle color="#b0cb1f" size={"4rem"} />
               </span>
               {"  "}
               reimagine lives
