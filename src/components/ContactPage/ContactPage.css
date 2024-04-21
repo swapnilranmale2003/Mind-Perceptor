@@ -25,11 +25,11 @@
     justify-content: center;
 }
 
-img {
+.contact-img>img {
     border-radius: 10px;
 }
 
-img:hover {
+.contact-img>img:hover {
     scale: 0.97;
     transition: all ease-out 0.5s;
     cursor: pointer;
@@ -37,7 +37,7 @@ img:hover {
 
 /* Media Query for img elements */
 @media (max-width: 768px) {
-    img {
+    .contact-img>img {
         width: 80%;
         margin-top: 2rem; /* Adjust the width of img elements for smaller screens */
     }

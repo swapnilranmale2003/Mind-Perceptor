@@ -1,0 +1,27 @@
+.ftco-footer {
+    font-family: poppins;
+    height: 100%;
+    font-size: 16px;
+    padding: 3em 0 0;
+    background: black;
+    position: relative;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+    font-weight: normal;
+    color: #fff;
+    font-size: px;
+
+}
+
+.ftco-footer p {
+    color: rgba(255, 255, 255);
+}
+
+.footer-h2 {
+    color: #fff;
+}
+
+.usefull-links {
+    color: #fff;
+}
