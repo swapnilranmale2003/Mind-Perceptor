@@ -1,17 +1,20 @@
 .nav {
   position: sticky;
-  height: 100px;
   top: 0; /* Stick the navbar to the top of the viewport */
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #fff;
+  background-color: #ffff;
   z-index: 1000; /* Ensure the navbar appears above other content */
 }
 
-.logo > img {
-  height: 50px;
+/* Rest of your existing CSS remains unchanged */
+
+.logo {
+  flex: 0 0 30%;
+  font-size: 2rem;
+  color: #fff;
 }
 
 .nav-links {
@@ -36,11 +39,14 @@
   color: #007bff;
 }
 
+
 @media (max-width: 768px) {
-  .logo {
+  .logo{
     margin: 0 3rem;
   }
-
+  .logo-img{
+    height: 40px;
+  }
   .nav {
     flex-direction: column;
     align-items: flex-start;
@@ -55,5 +61,6 @@
   .nav-links a {
     margin: 10px 10px;
     font-size: 12px;
+
   }
 }
