@@ -30,6 +30,13 @@ function scrollToWhoMPSection() {
   }
 }
 
+function scrollToHomeSection() {
+  const homeSection = document.getElementById("home-section");
+  if (homeSection) {
+    homeSection.scrollIntoView({ behavior: "smooth" });
+  }
+}
+
 function Navbar() {
   return (
     <div className="nav">
@@ -37,23 +44,25 @@ function Navbar() {
         <img className="logo-img" src="assets/MP.png" alt="" />
       </div>
       <div className="nav-links">
-        <Link to="/">Home</Link>
+        <a href="#" onClick={scrollToHomeSection}>
+          Home
+        </a>
 
-        <Link href="#" onClick={scrollToServiceSection}>
+        <a href="#" onClick={scrollToServiceSection}>
           Services
-        </Link>
+        </a>
 
-        <Link href="#" onClick={scrollToWhoMPSection}>
+        <a href="#" onClick={scrollToWhoMPSection}>
           About Us
-        </Link>
+        </a>
 
-        <Link href="#" onClick={scrollToFAQSection}>
+        <a href="#" onClick={scrollToFAQSection}>
           FAQ
-        </Link>
+        </a>
 
-        <Link href="#" onClick={scrollToContactSection}>
+        <a href="#" onClick={scrollToContactSection}>
           Contact Us
-        </Link>
+        </a>
       </div>
     </div>
   );

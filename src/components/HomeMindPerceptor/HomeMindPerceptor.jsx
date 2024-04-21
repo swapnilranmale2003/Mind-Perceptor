@@ -5,7 +5,7 @@ import { FaHandshakeAngle } from "react-icons/fa6";
 
 function HomeMindPerceptor() {
   return (
-    <>
+    <div id="home-section">
       <div className="container-fluid">
         <div className="row">
           <div className="col-md-5">
@@ -30,7 +30,7 @@ function HomeMindPerceptor() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
