@@ -27,7 +27,7 @@ function ContactPage() {
               rows="5"
             ></textarea>
             <Button className="contact-btn" size="large" variant="contained">
-              Submit
+              Submit!!
             </Button>
           </div>
 
